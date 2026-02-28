@@ -10,3 +10,7 @@ _bmad*/
 
 # IDE integration folders (user-specific, not in repo)
 .junie/
+
+# Web app build output and dependencies
+app/.next/
+app/node_modules/

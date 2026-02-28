@@ -36,6 +36,9 @@ export default [
       // are dictated by Augment and can't be changed, so exclude
       // the entire directory from linting
       '.augment/**',
+      // Web app build output and dependencies
+      'app/.next/**',
+      'app/node_modules/**',
     ],
   },
 
@@ -81,9 +84,9 @@ export default [
     },
   },
 
-  // CLI scripts under tools/** and test/**
+  // CLI scripts under tools/**, test/**, and app/scripts/**
   {
-    files: ['tools/**/*.js', 'tools/**/*.mjs', 'test/**/*.js', 'test/**/*.mjs'],
+    files: ['tools/**/*.js', 'tools/**/*.mjs', 'test/**/*.js', 'test/**/*.mjs', 'app/scripts/**/*.js'],
     rules: {
       // Allow CommonJS patterns for Node CLI scripts
       'unicorn/prefer-module': 'off',

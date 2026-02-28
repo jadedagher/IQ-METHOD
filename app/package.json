@@ -1,0 +1,32 @@
+{
+  "name": "bmad-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "node scripts/compile-agent.js && node scripts/copy-workflows.js",
+    "build": "next build",
+    "dev": "node scripts/compile-agent.js && node scripts/copy-workflows.js && next dev -p 4343",
+    "start": "next start -p 4343"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3",
+    "jszip": "^3.10.1",
+    "next": "16.1.6",
+    "openai": "^5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "js-yaml": "^4.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
