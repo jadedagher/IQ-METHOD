@@ -11,7 +11,7 @@
 
 ## Why the BMad Method?
 
-Traditional AI tools do the thinking for you, producing average results. BMad agents and facilitated workflows act as expert collaborators who guide you through a structured process to bring out your best thinking in partnership with the AI.
+Traditional AI tools do the thinking for you, producing average results. BMad agents and facilitated workflows act as expert collaborators who guide you through a structured process to bring out your best thinking in partnership with the AI
 
 - **AI Intelligent Help** — Ask `/bmad-help` anytime for guidance on what's next
 - **Scale-Domain-Adaptive** — Automatically adjusts planning depth based on project complexity
